@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400..700&family=Nunito:wght@400..700&display=swap");
+
+:root {
+  --fonte-titulo: "Fredoka", sans-serif;
+  --fonte-texto: "Nunito", sans-serif;
+
+  --cor-fundo: #fff8ec;
+  --cor-texto: #3b2a1a;
+  --cor-destaque: #b86e00;
+  --cor-detalhes: #f4a3a3;
+  --cor-detalhes-alternativo: #e3f2ff;
+  --cor-hover: #ffc93c;
+
+  --raio-card: 13px;
+  --raio-botao: 50%;
+
+  --botao-verde: #8bbf72;
+  --botao-vermelho: #e97970;
+  --botao-azul: #75bde8;
+  --botao-amarelo: #ffc93c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-texto);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-titulo);
+}
+
+h1 {
+  padding: 1.5rem 1rem 0;
+  text-align: center;
+}
+
+/* ===== Celular (base) ===== */
+.container-cores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.botao-cor {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: var(--raio-botao);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.botao-cor:active {
+  transform: scale(0.9);
+}
+
+.botao-cor:focus-visible {
+  outline: 3px solid var(--cor-texto);
+  outline-offset: 4px;
+}
+
+[data-cor="vermelho"] {
+  background: var(--botao-vermelho);
+}
+[data-cor="verde"] {
+  background: var(--botao-verde);
+}
+[data-cor="azul"] {
+  background: var(--botao-azul);
+}
+[data-cor="amarelo"] {
+  background: var(--botao-amarelo);
+}
+
+.nome-cor {
+  min-height: 4rem;
+  font-family: var(--fonte-titulo);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container-cores {
+    gap: 3rem;
+    padding: 3rem;
+  }
+}
