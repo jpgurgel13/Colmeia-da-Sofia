@@ -13,5 +13,8 @@ botoes.forEach((botao) => {
     const cor = botao.dataset.cor;
     nomeCor.textContent = cores[cor];
     nomeCor.style.color = `var(--botao-${cor})`;
+
+    const som = new Audio(`assets/sons/${cor}.mp3`);
+    som.play();
   });
 });
