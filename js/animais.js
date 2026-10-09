@@ -8,8 +8,8 @@ const animais = {
   galinha: "Galinha",
   abelha: "Abelha",
   vaca: "Vaca",
-  hipopotamo: "Hipopótamo",
-  girafa: "Girafa",
+  cavalo: "Cavalo",
+  leao: "Leão",
   elefante: "Elefante",
 };
 function tocarAnimal(botao) {
