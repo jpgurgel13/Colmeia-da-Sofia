@@ -98,13 +98,40 @@ h1 {
     padding: 3rem;
   }
 }
-.voltar {
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.botao-voltar {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-fundo-card);
+  border-radius: var(--raio-card);
+  transition: transform 0.15s ease;
+}
+
+.botao-voltar:active {
+  transform: scale(0.9);
+}
+
+.botao-voltar img {
+  width: 32px;
   display: block;
-  text-decoration: none;
-  color: var(--cor-texto);
+}
+
+.logo {
   font-family: var(--fonte-titulo);
-  font-weight: 600;
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 1rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--cor-texto);
+  text-decoration: none;
 }
