@@ -98,3 +98,13 @@ h1 {
     padding: 3rem;
   }
 }
+.voltar {
+  display: block;
+  text-decoration: none;
+  color: var(--cor-texto);
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+}

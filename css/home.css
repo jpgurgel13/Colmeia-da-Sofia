@@ -1,0 +1,26 @@
+.container-home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.card-home {
+  width: 100%;
+  border-radius: var(--raio-card);
+  transition: transform 0.15s ease;
+  background-color: var(--cor-fundo-card);
+  text-decoration: none;
+}
+.card-home:active {
+  transform: scale(0.9);
+}
+.card-title {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--cor-texto);
+  text-align: center;
+  margin: 1rem;
+}
