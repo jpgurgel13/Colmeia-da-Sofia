@@ -24,7 +24,7 @@
 }
 .botao-numero:focus-visible {
   outline: none;
-  background-color: var(--cor-hover);
+  filter: brightness(0.85);
 }
 .botao-numero img {
   width: 100%;
@@ -33,6 +33,10 @@
 .nome-numero {
   position: sticky;
   bottom: 0;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 2rem;
+  border-radius: var(--raio-card);
   background-color: var(--cor-fundo, #fff8ec);
   min-height: 4rem;
   font-family: var(--fonte-titulo);

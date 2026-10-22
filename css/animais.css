@@ -21,7 +21,7 @@
 }
 .botao-animal:focus-visible {
   outline: none;
-  background-color: var(--cor-hover);
+  filter: brightness(0.85);
 }
 .botao-animal img {
   width: 100%;
@@ -34,7 +34,33 @@
   font-weight: 700;
   text-align: center;
 }
-
+[data-animal="cachorro"] {
+  background-color: var(--pastel-azul);
+}
+[data-animal="gato"] {
+  background-color: var(--pastel-roxo);
+}
+[data-animal="abelha"] {
+  background-color: var(--pastel-verde);
+}
+[data-animal="macaco"] {
+  background-color: var(--pastel-verde);
+}
+[data-animal="elefante"] {
+  background-color: var(--pastel-amarelo);
+}
+[data-animal="leao"] {
+  background-color: var(--pastel-azul);
+}
+[data-animal="cavalo"] {
+  background-color: var(--pastel-rosa);
+}
+[data-animal="vaca"] {
+  background-color: var(--pastel-verde);
+}
+[data-animal="galinha"] {
+  background-color: var(--pastel-roxo);
+}
 @media (min-width: 768px) {
   .container-animais {
     gap: 3rem;
