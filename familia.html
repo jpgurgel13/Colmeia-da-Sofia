@@ -10,7 +10,6 @@
     <title>Família</title>
   </head>
   <body>
-    <div class="container-familia">
     <header class="cabecalho">
       <a href="index.html" class="botao-voltar" aria-label="Voltar ao menu">
         <img src="assets/img/voltar.svg" alt="" />
@@ -20,22 +19,24 @@
 
     <h1>Família</h1>
     <main>
-      <article class="cartao-pessoa">
-        <button class="botao-familia" data-pessoa="papai" aria-label="Papai">
-          <img src="assets/familia/papai.svg" alt="" />
-        </button>
-        <label
-          for="foto-papai"
-          class="botao-trocar-foto"
-          aria-label="Trocar foto do papai"
-        >
-          <img src="assets/img/mais.svg" alt="" />
-        </label>
-        <input type="file" id="foto-papai" accept="image/*" hidden />
-      </article>
-      <article>
-        <button class="botao-familia" data-pessoa="mamae" aria-label="Mamãe">
-          <img src="assets/familia/mamae.svg" alt="" />
+      <div class="container-familia">
+        <article class="cartao-pessoa">
+          <button class="botao-familia" data-pessoa="papai" aria-label="Papai">
+            <img src="assets/familia/papai.svg" alt="" />
+          </button>
+          <label
+            for="foto-papai"
+            class="botao-trocar-foto"
+            aria-label="Trocar foto do papai"
+          >
+            <img src="assets/img/mais.svg" alt="" />
+          </label>
+          <input type="file" id="foto-papai" accept="image/*" hidden />
+        </article>
+
+        <article class="cartao-pessoa">
+          <button class="botao-familia" data-pessoa="mamae" aria-label="Mamãe">
+            <img src="assets/familia/mamae.svg" alt="" />
           </button>
           <label
             for="foto-mamae"
@@ -45,9 +46,9 @@
             <img src="assets/img/mais.svg" alt="" />
           </label>
           <input type="file" id="foto-mamae" accept="image/*" hidden />
-        
-      </article>
-    </div>
+        </article>
+      </div>
+
       <p class="nome-familia"></p>
     </main>
   </body>
