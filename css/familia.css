@@ -1,6 +1,6 @@
 .container-familia {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding: 1.5rem;
   max-width: 640px;
@@ -43,10 +43,10 @@
   max-width: 640px;
   margin: 0 auto;
 }
-[data-familia="pai"] {
+[data-familia="papai"] {
   background-color: var(--pastel-azul);
 }
-[data-familia="mae"] {
+[data-familia="mamae"] {
   background-color: var(--pastel-rosa);
 }
 @media (min-width: 768px) {
