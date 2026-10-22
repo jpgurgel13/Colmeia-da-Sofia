@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<path d="M14 48 L106 48 A46 46 0 0 1 14 48 Z" fill="#8BBF72" stroke="#3B2A1A" stroke-width="4" stroke-linejoin="round"/>
+<path d="M22 48 L98 48 A38 38 0 0 1 22 48 Z" fill="#FFF3C4"/>
+<path d="M27 48 L93 48 A33 33 0 0 1 27 48 Z" fill="#E97970"/>
+<path d="M14 48 L106 48" stroke="#3B2A1A" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="34" cy="55" rx="2" ry="3.2" fill="#3B2A1A"/><ellipse cx="86" cy="55" rx="2" ry="3.2" fill="#3B2A1A"/>
+<ellipse cx="48" cy="74" rx="2" ry="3.2" fill="#3B2A1A"/><ellipse cx="72" cy="74" rx="2" ry="3.2" fill="#3B2A1A"/>
+<circle cx="51.5" cy="56" r="2.975" fill="#3B2A1A"/><circle cx="52.52" cy="54.98" r="1.02" fill="#FFFFFF"/><circle cx="68.5" cy="56" r="2.975" fill="#3B2A1A"/><circle cx="69.52" cy="54.98" r="1.02" fill="#FFFFFF"/><circle cx="46.4" cy="61.95" r="2.975" fill="#F4A3A3"/><circle cx="73.6" cy="61.95" r="2.975" fill="#F4A3A3"/><path d="M55.75 61.1 Q60 65.35 64.25 61.1" fill="none" stroke="#3B2A1A" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
