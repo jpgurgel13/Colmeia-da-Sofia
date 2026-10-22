@@ -4,7 +4,6 @@
   --fonte-titulo: "Fredoka", sans-serif;
   --fonte-texto: "Nunito", sans-serif;
 
-  /* Identidade visual */
   --cor-fundo: #fff4e2;
   --cor-texto: #382316;
   --cor-destaque: #a94f00;
@@ -15,11 +14,18 @@
   --raio-card: 13px;
   --raio-botao: 50%;
 
-  /* Cores dos botões */
   --botao-verde: #65a943;
   --botao-vermelho: #e65353;
   --botao-azul: #398fd1;
   --botao-amarelo: #ffbe0b;
+
+  --pastel-vermelho: #f9b8b0;
+  --pastel-amarelo: #ffd97a;
+  --pastel-verde: #c5e3b5;
+  --pastel-roxo: #dcc5f0;
+  --pastel-rosa: #ffc4cc;
+  --pastel-laranja: #ffd0a0;
+  --pastel-azul: #bfddf7;
 }
 
 * {
@@ -35,17 +41,30 @@ body {
   font-family: var(--fonte-texto);
 }
 
-h1,
-h2,
-h3 {
-  font-family: var(--fonte-titulo);
-}
-
 h1 {
+  font-family: var(--fonte-titulo);
   padding: 1.5rem 1rem 0;
   text-align: center;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
 }
 
+h1::before,
+h1::after {
+  content: "";
+  width: 1.5rem;
+  height: 2.5rem;
+  background-image: url("../assets/img/decoracao/brilho.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1::after {
+  transform: scaleX(-1);
+}
 .container-cores {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -136,4 +155,25 @@ h1 {
   font-size: 1.25rem;
   color: var(--cor-texto);
   text-decoration: none;
+}
+@media (min-width: 1024px) {
+  body {
+    background-image:
+      url("../assets/img/decoracao/abelha-voando.svg"),
+      url("../assets/img/decoracao/flores.svg"),
+      url("../assets/img/decoracao/coracao.svg"),
+      url("../assets/img/decoracao/rabiscos.svg"),
+      url("../assets/img/decoracao/onda-rosa.svg"),
+      url("../assets/img/decoraca/onda-azul.svg");
+    background-position:
+      left 2rem top 2rem,
+      right 3rem top 3rem,
+      left 5rem bottom 9rem,
+      right 5rem bottom 9rem,
+      left bottom,
+      right bottom;
+    background-size: 180px, 110px, 90px, 80px, 420px, 420px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }

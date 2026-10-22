@@ -2,7 +2,7 @@ const botoes = document.querySelectorAll(".botao-fruta");
 const nomeFruta = document.querySelector(".nome-fruta");
 
 const frutas = {
-  mbacaxi: "Abacaxi",
+  abacaxi: "Abacaxi",
   pera: "Pera",
   maca: "Maçã",
   banana: "Banana",

@@ -24,8 +24,9 @@
 }
 .botao-fruta:focus-visible {
   outline: none;
-  background-color: var(--cor-hover);
+  filter: brightness(0.85);
 }
+
 .botao-fruta img {
   width: 100%;
   display: block;
@@ -39,8 +40,30 @@
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
 }
-
+[data-fruta="maca"] {
+  background-color: var(--pastel-vermelho);
+}
+[data-fruta="banana"] {
+  background-color: var(--pastel-amarelo);
+}
+[data-fruta="pera"] {
+  background-color: var(--pastel-verde);
+}
+[data-fruta="uva"] {
+  background-color: var(--pastel-roxo);
+}
+[data-fruta="melancia"] {
+  background-color: var(--pastel-rosa);
+}
+[data-fruta="abacaxi"] {
+  background-color: var(--pastel-laranja);
+}
+[data-fruta="limao"] {
+  background-color: var(--pastel-azul);
+}
 @media (min-width: 768px) {
   .container-frutas {
     gap: 3rem;

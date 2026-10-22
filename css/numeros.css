@@ -40,6 +40,36 @@
   font-weight: 700;
   text-align: center;
 }
+[data-numero="1"] {
+  background-color: var(--pastel-azul);
+}
+[data-numero="2"] {
+  background-color: var(--pastel-amarelo);
+}
+[data-numero="3"] {
+  background-color: var(--pastel-rosa);
+}
+[data-numero="4"] {
+  background-color: var(--pastel-roxo);
+}
+[data-numero="5"] {
+  background-color: var(--pastel-rosa);
+}
+[data-numero="6"] {
+  background-color: var(--pastel-verde);
+}
+[data-numero="7"] {
+  background-color: var(--pastel-verde);
+}
+[data-numero="8"] {
+  background-color: var(--pastel-laranja);
+}
+[data-numero="9"] {
+  background-color: var(--pastel-roxo);
+}
+[data-numero="10"] {
+  background-color: var(--pastel-azul);
+}
 
 @media (min-width: 768px) {
   .container-numeros {
