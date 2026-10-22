@@ -14,7 +14,7 @@
   cursor: pointer;
   transition: transform 0.15s ease;
   background-color: var(--cor-fundo-card);
-  padding: 13%;
+  padding: 0.5rem;
 }
 .botao-numero:last-child {
   grid-column: 2;
