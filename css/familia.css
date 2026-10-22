@@ -1,0 +1,57 @@
+.container-familia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.botao-familia {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  background-color: var(--cor-fundo-card);
+  padding: 0.5rem;
+}
+.botao-familia:last-child {
+  grid-column: 2;
+}
+.botao-familia:active {
+  transform: scale(0.9);
+}
+.botao-familia:focus-visible {
+  outline: none;
+  filter: brightness(0.85);
+}
+
+.botao-familia img {
+  width: 100%;
+  display: block;
+}
+.nome-familia {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--cor-fundo, #fff8ec);
+  min-height: 4rem;
+  font-family: var(--fonte-titulo);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+[data-familia="pai"] {
+  background-color: var(--pastel-azul);
+}
+[data-familia="mae"] {
+  background-color: var(--pastel-rosa);
+}
+@media (min-width: 768px) {
+  .container-familia {
+    gap: 3rem;
+    padding: 3rem;
+  }
+}
