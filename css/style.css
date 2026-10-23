@@ -4,12 +4,12 @@
   --fonte-titulo: "Fredoka", sans-serif;
   --fonte-texto: "Nunito", sans-serif;
 
-  --cor-fundo: #fff4e2;
-  --cor-texto: #382316;
-  --cor-destaque: #a94f00;
-  --cor-detalhes: #f07868;
-  --cor-fundo-card: #f4c27a;
-  --cor-hover: #ffb800;
+  --cor-fundo: #fff8ec;
+  --cor-texto: #382b22;
+  --cor-destaque: #a66b2e;
+  --cor-detalhes: #f2a39b;
+  --cor-fundo-card: #f6dca7;
+  --cor-hover: #e9b949;
 
   --raio-card: 13px;
   --raio-botao: 50%;
@@ -20,12 +20,12 @@
   --botao-amarelo: #ffbe0b;
 
   --pastel-vermelho: #f9b8b0;
-  --pastel-amarelo: #ffd97a;
-  --pastel-verde: #c5e3b5;
-  --pastel-roxo: #dcc5f0;
-  --pastel-rosa: #ffc4cc;
-  --pastel-laranja: #ffd0a0;
-  --pastel-azul: #bfddf7;
+  --pastel-amarelo: #ffe5a3;
+  --pastel-verde: #c5ddb8;
+  --pastel-roxo: #dcccf0;
+  --pastel-rosa: #ffc9d2;
+  --pastel-laranja: #ffd7b0;
+  --pastel-azul: #c5e2f7;
 }
 
 * {
