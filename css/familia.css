@@ -31,6 +31,8 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 .botao-trocar-foto {
   position: absolute;
@@ -51,6 +53,9 @@
   width: 100%;
   display: block;
 }
+.cartao-pessoa.com-foto:not(.editando) .botao-trocar-foto {
+  display: none;
+}
 .nome-familia {
   position: sticky;
   bottom: 0;
@@ -64,6 +69,12 @@
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
+}
+.dica-pais {
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  padding: 0 1.5rem;
 }
 [data-pessoa="papai"] {
   background-color: var(--pastel-azul);
